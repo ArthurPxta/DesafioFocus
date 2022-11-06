@@ -5,25 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Desafio Focus</title>
+    <link rel="script" type="scripit/ts" href="script.ts">
 </head>
+<script src = "ts/scripts.ts" defer></script>
 <body>
-    <h1>Formulario teste</h1>
     <br>
-    <form action="">
-        <div>
-            <label for="campo-de-email"></label>
-            <input type="email", name="campo-de-email">
+        <div class="container">
+            <div id = "f-cont">
+                <h1> Cadastre-se </h1>
+                <form id="f-cadastrar">
+                    <div class="f-input">
+                        <div class="form-control">
+                            <label for="email">Email:</label>
+                            <input 
+                            type="text" 
+                            name = "email"
+                            placeholder="Exemple@gmail.com">
+                        </div>
+                        <div class="form-control">
+                            <label for="senha">Senha:</label>
+                            <input 
+                            type="password"
+                            name="senha"
+                            >
+                        </div>
+                    </div>
+                    <div>
+                         <button id="cadastrar"> Cadastrar </button>
+                    </div>
+                </form>
+            </div>
         </div>
-        <br>
-        <div>
-            <label for="campo-de-senha"></label>
-            <input type="password" name="campo-de-senha">
-        </div>
-        <div>
-            <label for="button"></label>
-            <input type="button" value="cadastrar" name="button">
-        </div>
-    </form>
 </body>
 </html>
