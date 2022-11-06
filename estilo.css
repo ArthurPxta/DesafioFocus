@@ -1,5 +1,5 @@
 body{
-    background-color: #090e22;
+    background-image: url(backgroundtest.jpg);
     display: flex;
     justify-content: space-around;
     align-items:  center;
@@ -19,17 +19,25 @@ body{
 .f-input{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
+/*
+.email{
+    border-color: red;
+}
+.senha{
+    border-color: red;
+}*/
+
 .form-control{
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
 }
 button{
+
     justify-items: center;
     text-transform: uppercase;
-    border: none;
+    border: black;
     color: azure;
     cursor: pointer;
     background-color: cornflowerblue;
